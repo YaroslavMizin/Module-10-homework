@@ -1,0 +1,69 @@
+body {
+    margin: auto;
+    font-family: sans-serif bold;
+    caret-color: transparent;
+}
+
+.chat {
+    width: 500px;
+    margin: 20px auto;
+    padding: 10px;
+    box-shadow: 1px 1px 6px black;
+}
+
+.send {
+    display: flex;
+    gap: 15px;
+    width: fit-content;
+    height: fit-content;
+    margin: 0 auto 10px;
+}
+
+.ipt {
+    width: 250px;
+    background-color: transparent;
+    border: 4px solid rgb(165, 204, 255);
+    outline: 0;
+    caret-color: black;
+}
+
+.btn, .geo {
+    background-color: rgb(165, 204, 255);
+    padding: 8px 15px;
+    border: 0;
+    color:rgba(0, 0, 0, 0.685);
+    transition: 300ms;
+}
+
+.btn:hover, .geo:hover {
+    transform: scale(1.05);
+}
+
+.output {
+    border: 4px solid rgb(165, 204, 255);
+    height: 300px;
+    width: 94%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    overflow-y: auto;
+}
+
+.message {
+    border: 4px solid rgb(165, 204, 255);
+    border-radius: 12px;
+    padding: 5px;
+    width: fit-content;
+    align-self: flex-end;
+    line-height: 20px;
+}
+
+.response {
+    align-self: flex-start;
+}
+
+.location {
+    text-decoration: none;
+    color: blue;
+}
